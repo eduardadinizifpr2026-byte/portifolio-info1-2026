@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto HTML Semântico</title>
-        <link rel="stylesheet" href="../../assets/styles/html_semantico.css"
+        <link rel="stylesheet" href="../../assets/styles/html_semantico.css">
         <style>
-            header{
-                backgr
+             header{
+                border: 10px solid lightblue;
+                background-color: rgb(58,127,255)
+                padding: 10px;
+                margin: 10px;
+                background-clip: content-box;
+                color: white
             }
-            h1{
-                color
+              nav{
+                  border;10px solid lightalmon;
+                  background-color:rbg(225,145,0);
+                  padding: 10px;
+                  margin: 10px;
+                  background-clip: content-box
+            }
+              main{
+                border: 10px solid gainsboro;
+                background-color: lightgray;
+                padding: 10px;
+                margin: 10px;
+                background-clip: content-box;
+            }
+            section {
+                background-color: yellow;
+                padding: 10px;
+                margin: 10px;
+                background-clip: content-box;
+            }
+            article{
+                border: 1px dotted rgb(101,196,98);
+                background-color: green;
+                padding: 10px;
+                margin: 10px;
+                background-clip: content-box;
+            }
+            aside{
+                border: 10px solid rbg(182,179,179);
+                background-color: rbg(122,18,199);
+                padding: 10px;
+                margin: 10px;
+                background-clip: content-box;
             }
         </style>
     </head>
     <body>
-         <header>
-            <h1></h1>
+        <header>
+                <h1>Título do site (header)</h1>
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
@@ -24,5 +60,12 @@
                 </ul>
             </nav>
          </header>
-    </body>
+            <section>
+                <h2>Nossa Missão (n)></h2>
+                (article)
+                    <p><n>História da Empresa(<article)</n></p>
+                    <p>conteúdo independente...</p>
+                </article>
+            </section>
+        
 </html>
